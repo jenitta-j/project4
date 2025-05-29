@@ -1,0 +1,29 @@
+/*4. Design a To-Do List Application 
+o Create a to-do list application that allows users to add, edit, and delete 
+tasks. 
+o Use HTML to structure the content, CSS to style the website, and 
+JavaScript to add interactive elements. 
+o Make at least five git commits, ensuring each commit reflects significant 
+progress 
+o Host the website on GitHub Pages. */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>My To-Do List</h1>
+    <div class="input-group">
+      <input type="text" id="taskInput" placeholder="Enter a task..." />
+      <button onclick="addTask()">Add</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
